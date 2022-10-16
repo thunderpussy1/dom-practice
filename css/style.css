@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    max-height: 100vh;
+}
+.asidemenu {
+    display: flex;
+}
+.asidemenu__navigation,
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.content__cards {
+    display: flex;
+    justify-content: center;
+}
+.content__cards_img {
+    max-width: 300px;
+    padding: 5px;
+}
